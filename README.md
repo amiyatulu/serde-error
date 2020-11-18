@@ -1,6 +1,6 @@
 # serde-error
 
-
+```
 cargo build --target wasm32-unknown-unknown --release
    Compiling serde-error v0.1.0 (/home/amiya/Documents/workspace/blockchain/test_serialize_error/contract)
 error[E0277]: the trait bound `StatusMessage: near_sdk::serde::Serialize` is not satisfied
@@ -22,3 +22,4 @@ For more information about this error, try `rustc --explain E0277`.
 error: could not compile `serde-error`.
 
 To learn more, run the command again with --verbose.
+```
